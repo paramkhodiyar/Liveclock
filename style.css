@@ -22,7 +22,12 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(232, 160, 26);
+    width: 15rem;
+    height: 10rem;
     padding: 40px;
     border-radius: 8px;
     align-items: center;
@@ -53,13 +58,5 @@ footer {
     }
     footer {
         font-size: 0.7em;
-    }
-}
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
     }
 }
